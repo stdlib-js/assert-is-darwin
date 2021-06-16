@@ -37,7 +37,7 @@ tape( 'the main export is `true` if the current process is running on Darwin', f
 	var IS_DARWIN;
 
 	IS_DARWIN = proxyquire( './../lib', {
-		'@stdlib/os/platform': 'darwin'
+		'@stdlib/os-platform': 'darwin'
 	});
 	t.equal( IS_DARWIN, true, 'is true' );
 	t.end();
@@ -47,7 +47,7 @@ tape( 'the main export is `false` if the current process is not running on Darwi
 	var IS_DARWIN;
 
 	IS_DARWIN = proxyquire( './../lib', {
-		'@stdlib/os/platform': 'linux'
+		'@stdlib/os-platform': 'linux'
 	});
 	t.equal( IS_DARWIN, false, 'is false' );
 	t.end();
