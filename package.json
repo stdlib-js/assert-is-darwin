@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-darwin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Boolean indicating if the current process is running on Darwin.",
   "license": "Apache-2.0",
   "author": {
