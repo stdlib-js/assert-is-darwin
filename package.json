@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/assert-is-darwin",
+  "version": "0.0.0",
+  "description": "Boolean indicating if the current process is running on Darwin.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-darwin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utils",
+    "util",
+    "utilities",
+    "utility",
+    "process",
+    "platform",
+    "os",
+    "check",
+    "windows",
+    "posix",
+    "linux",
+    "darwin",
+    "is",
+    "isdarwin",
+    "win32"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
