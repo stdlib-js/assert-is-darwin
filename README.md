@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@deno/mod.js';
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.1.0-deno/mod.js';
 ```
 
 #### IS_DARWIN
@@ -66,7 +66,7 @@ console.log( IS_DARWIN );
 
 ```javascript
 import PLATFORM from 'https://cdn.jsdelivr.net/gh/stdlib-js/os-platform@deno/mod.js';
-import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@deno/mod.js';
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.1.0-deno/mod.js';
 
 if ( IS_DARWIN ) {
     console.log( 'Running on Darwin...' );
