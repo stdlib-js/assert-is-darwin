@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-darwin",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Boolean indicating if the current process is running on Darwin.",
   "license": "Apache-2.0",
   "author": {
@@ -35,7 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/os-platform": "^0.0.8"
+    "@stdlib/os-platform": "^0.1.0"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
