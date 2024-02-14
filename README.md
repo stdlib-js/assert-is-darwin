@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-darwin/tags). For example,
+
+```javascript
 import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.2.0-deno/mod.js';
 ```
 
@@ -66,7 +71,7 @@ console.log( IS_DARWIN );
 
 ```javascript
 import PLATFORM from 'https://cdn.jsdelivr.net/gh/stdlib-js/os-platform@deno/mod.js';
-import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.2.0-deno/mod.js';
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@deno/mod.js';
 
 if ( IS_DARWIN ) {
     console.log( 'Running on Darwin...' );
