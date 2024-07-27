@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-darwin/tags). For example,
+
+```javascript
 import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.2.2-esm/index.mjs';
 ```
 
@@ -71,7 +76,7 @@ console.log( IS_DARWIN );
 <script type="module">
 
 import PLATFORM from 'https://cdn.jsdelivr.net/gh/stdlib-js/os-platform@esm/index.mjs';
-import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@v0.2.2-esm/index.mjs';
+import IS_DARWIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-darwin@esm/index.mjs';
 
 if ( IS_DARWIN ) {
     console.log( 'Running on Darwin...' );
